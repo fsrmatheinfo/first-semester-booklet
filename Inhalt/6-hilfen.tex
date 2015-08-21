@@ -1,0 +1,179 @@
+
+\section{Hilfen technischer Natur}
+
+\subsection{Wie erstelle ich ein PDF?}
+
+Die Lösungen zu euren wöchentlichen Hausaufgaben müsst ihr meist gedruckt vorlegen oder als PDF einsenden.
+Im Folgenden werde ich euch erklären wie ihr am besten ein PDF erstellt und dabei einwandfreie mathematische Formeln darstellt.
+Es gibt mehrere Möglichkeiten ein PDF zu erstellen:
+
+\begin{enumerate}
+    \item mit OpenOffice bzw. LibreOffice.\\
+          Dokumente, die mit Programmen dieser Bürosoftware erstellt werden, können mit einem Knopfdruck bequem exportiert werden.
+          OpenOffice und Libreoffice sind einfach zu bedienen und mit allen wichtigen Funktionen ausgestattet.\\
+          \web{http://de.libreoffice.org/}\\
+          \web{http://de.openoffice.org/}
+    \item mit \LaTeX.\\
+          Um \LaTeX~(sprich: 'latech) kommen die Studierenden in unserer Fachschaft nicht herum. 
+          Es ist ein System das aus der Textsatztechnik entstanden ist.
+          Es bietet alle Funktionen, die man brauchen könnte und sieht unglaublich professionell im Ergebnis aus.
+          Allerdings braucht es eine gewisse Arbeit sich mit dem System vertraut zu machen.
+          Dieses Heft wurde auch mit \LaTeX~gestaltet und ihr seht die Möglichkeiten:
+          \begin{eqnarray*}
+               A & = & \left(\begin{array}{ccc} a_{11} & \cdots & a_{1n}\\
+                                                    \vdots & \ddots & \\
+                                                   a_{m1} &        & a_{mn} \end{array}\right)\\
+               \sum_{i=1}^n i & = & \frac{n(n+1)}{2}\\
+               \int_{0}^{3}x^2dx & = & 9\\
+               \forall n\in\mathbb{N}:\lim
+                                  \limits_{m\to \infty}\frac{n}{m} & = & 0
+          \end{eqnarray*}
+    \item mit MS Word kann man direkt im Format PDF exportieren. Es ist jedoch sehr mühsam, Formeln mit Word zu erstellen.
+    \item mit einem „virtuellen Drucker“\\
+          Was hierbei hochtrabend klingt, ist eigentlich sehr einfach.
+          Man installiert ein Programm und kann dann aus einem beliebigen Programm, z.B. Microsoft Word, Dokumente in ein PDF drucken,
+          so dass dieser Druck nicht auf Papier, sondern als Datei vorliegt.
+          Einige freie virtuelle Drucker findet ihr unter\\
+          \web{http://www.softonic.de/s/virtueller-drucker}
+%    \item mit einem Konvertierer.\\
+%          Es gibt auch Programme, die PDFs aus anderen Formate, z.B. MS Word, konvertieren, z.B. WordToPDF Pro.\\
+%          \web{http://www.topdf.de/DownloadD.htm}
+\end{enumerate}
+
+\paragraph{\LaTeX}
+Im Folgenden möchte ich nur auf \LaTeX~genauer eingehen, da es das professionellste Tool zum Erzeugen von Texten und Formeln ist, viele aber von der ungewohnten Bedienung abgeschreckt werden.
+Hier wird nur auf die Installation unter Windows eingegangen, da Windows-User meist noch keinen Kontakt mit \LaTeX~hatten und oft technisch unerfahrener sind.
+GNU/Linux-User finden unter den Stichworten texlive, gedit (Gnome) und Kile (KDE) Hilfe, Mac~OS~X-User sollten sich an TeX-Shop halten.
+
+\paragraph{Installation}
+Als erstes muss man unter Windows zwei Programme installieren, bevor man starten kann.
+Das erste ist die eigentliche \LaTeX -Software.
+Also das Programm, welches am Ende die pdf-Dateien erstellt.
+Das Zweite ist dann ein Editor, der euch mit Autovervollständigung und Knöpfen zum Erstellen der Dokumente unterstützt.
+
+\textbf{\LaTeX -Software:}
+\begin{itemize}
+    \item MiK\TeX~enthält das eigentliche \LaTeX-System und alle wichtigen Pakete, ist jedoch auf das Betriebssystem Windows beschränkt \\
+        \link{http://miktex.org/}\\
+        Wenn man die Basic-Version installiert, dann muss man immer, wenn benötigte Pakete nachgeladen werden, eine Internetverbindung haben.
+        Wählt man das komplette MiK\TeX, so muss man keine Pakete mehr nachladen.
+        Dafür benötigt das ganze mehr Festplatten-Speicher.
+    \item \TeX~Live ist ein alternatives System, ähnlich zu MiK\TeX, dafür aber auch unter anderen Betriebssystemen verwendbar \\
+        \link{www.tug.org/texlive/}
+\end{itemize}
+
+\textbf{Editoren:}
+\begin{itemize}
+    \item \TeX nicCenter benötigt als Grundlage MiK\TeX und kann daher auch nur unter Windows verwendet werden \\
+        \link{www.texniccenter.org/}
+    \item \TeX maker wird von vielen Linux-Anwendern verwendet, da es standardmäßig Unicode als Kodierung verwendet \\
+        \link{www.xm1math.net/texmaker/}
+    \item \TeX works ist ähnlich zu \TeX maker und unterscheidet sich nur leicht davon \\
+        \link{www.tug.org/texworks}
+\end{itemize}
+
+Man installiert \textbf{zuerst} das \LaTeX-Programm \textbf{und dann} den Editor.
+Normalerweise muss man einfach den Anweisungen in den Installern folgen.
+Bei Problemen mit \LaTeX~hilft es oft, google zu fragen.
+
+\paragraph{Den ersten Text setzen}
+Der große Unterschied zu anderen Texverarbeitungssystemen ist, dass nicht wie in Word der Text direkt formatiert angezeigt wird („What you see is what you get“), sondern dass man die Formatierung nur „beschreibt“.
+Ähnlich wie in HTML schreibt man alle Formatierungen mit in den Text und erst beim Setzen entsteht das fertige Dokument („What you see is what you mean“).
+Davon darf man sich aber nicht abschrecken lassen.
+Wenn ihr die folgenden Schritte befolgt, habt ihr in wenigen Minuten euer erstes PDF-Dokument selbst erzeugt.
+Die Anweisungen beziehen sich auf das \TeX nicCenter, in den anderen Editoren können die Schaltflächen anders angeordnet sein und verschieden heißen.
+
+\begin{enumerate}
+ \item Öffnet euer \TeX nicCenter.
+ \item Stellt in der Werkzeugleiste in dem Feld, in dem \LaTeX $=>$ DVI steht, \LaTeX $=>$ PDF ein.
+ \item Öffnet ein neues Dokument und gebt folgende Zeilen ein:
+    \begin{verbatim}
+            \documentclass[a4paper]{article}
+            \begin{document}
+                    Hallo Welt!
+            \end{document}
+    \end{verbatim}
+%Verbatim ignoriert Tabs, deshalb zum Einrücken 8 Leerzeichen benutzen
+ \item Anschließend müsst ihr euer Dokument übersetzen (in Fachkreisen auch „setzen“ oder „\TeX en“ genannt),
+       dazu klickt ihr im Menü „Ausgabe - Aktives Dokument -
+       Erstellen und betrachten“. Euer gesetztes Dokument sollte
+       gleich angezeigt werden.
+\end{enumerate}
+
+\paragraph{Die Lösungen zu den Übungen schreiben}
+Dazu verwendet ihr am besten ein Vorlage, in der schon alle wichtigen Pakete (z.B. für Matheformeln) eingebunden sind.
+Ihr findet eine auf der Seite des Fachschaftsrates:\\
+\web{http://fachschaft.mathinf.uni-halle.de/informationen/latex}\\
+In diese Vorlage tragt ihr euren Namen, eure Matrikelnummer und die Nummer der Übungsserie ein, dann könnt ihr loslegen.
+Außerdem sind in der Vorlage noch ein paar Beispiele aufgeführt.
+
+Probiert einfach ein bisschen rum.
+Am besten ihr beschäftigt euch so zeitig wie möglich in eurem Studium damit, dann beherrscht ihr \LaTeX~, wenn es darauf ankommt.
+Spätestens zur Bachelorarbeit kommt ihr nicht mehr um \LaTeX~herum.
+
+\subsection{Die Computerpools}
+Im Informatikgebäude gibt es in der dritten Etage vier Computerpools, davon sind zwei für Lehrveranstaltungen und Studenten der Institute für Mathematik und Informatik vorgesehen:
+
+\begin{itemize}
+    \item ThinClient-Pool (Raum 3.34) mit 29 ThinClients Futuro S400.
+          Verfügbare Betriebssysteme: Windows 2003 Server, GNU/Linux Ubuntu 10.100
+    \item PC-Pool (Raum 3.32) mit 29 PCs.
+          Verfügbare Betriebssysteme: Windows XP Professional und GNU/Linux Ubuntu 10.10 
+\end{itemize}
+
+Der andere ist ein öffentlicher Pool und somit allen Studenten zugänglich.
+In den Pools ist jede Software, die ihr gebrauchen könntet und vielleicht sogar unter einer teuren Lizenz steht, installiert.
+Außerdem könnt ihr aus den Pools heraus die Drucker nutzen:
+
+Es stehen jedem Studenten der mathematischen Studiengänge einmalig zum ersten Semester 100~Druckseiten kostenlos zur Verfügung.
+Für die Studenten der Informatik und Bioinformatik sind es sogar 200 Seiten pro Semester.
+
+Benutzername und Passwort stehen im Bestätigungsbrief zu eurer Immatrikulation.
+Bei Problemen mit dem Login könnt ihr euch an die Poolaufsicht (Raum~3.18) wenden.
+Weitere Informationen zu den Pools, verfügbarer Software, Diensten u.a. kann man nachlesen unter:\\[1.0em]
+\web{http://www.informatik.uni-halle.de/studium/pools/}\\ 
+
+\subsection{WLAN}
+
+In den meisten Unigebäuden und auf dem Uniplatz gibt es WLAN für alle Studenten.
+So auch in den Gebäuden der Mathematik und Informatik.
+Benutzt einfach die Zugangstechnik 802.1X , wenn ihr euch mit dem WLAN namens „uniwlan1x“ verbindet.
+Für technische Details verweise ich euch einfach an die entsprechenden Wikipedia-Artikel.
+
+Die Uni stellt gut verständliche, bebilderte Anleitungen für die meisten Betriebssysteme zur Verfügung.
+Diese erreicht ihr von zu Hause unter\\
+    \web{http://wlan.urz.uni-halle.de/}.
+
+
+\subsection[Kommunikationswege des FSR]{Die Kommunikationswege des Fachschaftsrates}
+In den letzten Jahren haben wir per studiVZ, facebook und Twitter neue Mög\-lich\-kei\-ten geschaffen, regelmäßig wichtige Informationen an euch
+weiterzuleiten.
+Aber auch mit den klassischen Wegen, wie der Homepage oder den Aushängen, halten wir euch über aktuelle Ereignisse und kommende Veranstaltungen
+auf dem Laufenden.
+Hier findet ihr eine Übersicht über unsere Kommunikationswege:
+
+\subsubsection{Homepage}
+    \web{http://fachschaft.mathinf.uni-halle.de/} \\
+    oder kurz \web{http://www.fsr-matheinfo.de/}
+\subsubsection{im StudIP}
+    \verweis{Studienforum Mathematik}, 
+    \verweis{Studienforum Informatik} 
+\subsubsection{im studiVZ}
+    Profil: \verweis{Fachschaftsrat Mathe/Info} \\
+    Gruppe: \verweis{Fachschaft Mathe/Info MLU Halle}
+\subsubsection{facebook}
+    Profil: \verweis{Fachschaftsrat MatheInfo} \\
+    Gruppe: \verweis{Institut für Informatik},\\ \phantom{Gruppe:} \verweis{Martin-Luther-Universität Halle-Wittenberg}
+\subsubsection{per Twitter}
+    \web{http://twitter.com/FsrMatheInfo/}
+\subsubsection{Aushänge}
+    Pinnwände der 3. Etage im Institut für Informatik \\
+    Korkwand im Fachschafts-Raum (Raum~0.31) \\
+    und manchmal auch reichlich in den Instituten verteilt
+
+Wenn ihr etwas auf dem Herzen habt, könnt ihr uns auch jederzeit mit einer E-mail an \email{fachschaft@mathinf.uni-halle.de} erreichen.
+Zudem könnt ihr bei schwerwiegenden Problemen oder auch einfach aus Interesse bei den öffentlichen Sitzungen vorbeischauen.
+In der Vorlesungszeit finden diese meist wöchentlich, in der vorlesungsfreien Zeit unregelmäßig, alle zwei bis drei Wochen, im Raum 0.31 statt.
+Die genauen Termine findet ihr auf der Homepage.
+
+
