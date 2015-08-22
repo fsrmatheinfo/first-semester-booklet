@@ -10,7 +10,7 @@ Eine Übersicht über die Gremien ist in Abbildung \ref{fig:gremien} auf Seite \
 \begin{figure}[!t]
     \centering
     \includegraphics[scale=0.4]{fsrsw}
-    \caption{Fachschaftsrat: Felix Knispel, Florian Lücke, Iris Eckert, Steffen Manigk, Delia Elmrich, Felix Schmidt, Luzie Schmollack \newline (v.l.n.r)}
+    \caption{Fachschaftsrat: hinten: Maximilian Büttner, Norman Holtz, René-Pierre Geiß, Florian Lücke vorne: Steffen Manigk, Florian Johnke, Felix Schmidt}
              \label{fig:fsr}
 \end{figure}
 
@@ -71,7 +71,31 @@ Wenn ihr später einmal selbst den Studierenden des Fachbereichs helfen wollt, l
 
 \begin{figure}[htb]
     \centering
-    \includegraphics[width=\textwidth]{studentische_gremien}\\
+    %Hier kommt eine Tikz Picture hin und kein odg Ding zwecks kompatibilität und Sexyness
+    %\includegraphics[width=\textwidth]{Bilder/studentische_gremien.odg}\\
+    \begin{tikzpicture}
+    \node[draw] (Senatoren) at (0,0) {4 stud. Senatoren};
+    \node[draw] (Fakultaetsmitglieder) at (3.5,0) {stud. Fakultätsmitglieder};
+    \node[draw] (StuRa) at (7,0) {StuRamitglied(er)};
+    \node[draw] (FSR) at (9.7,0) {Fachschaftsrat};
+    \node[draw] (Studis) at (1,-2) {Studierendenschaft};
+    \node[draw] (FS) at (6.5,-2) {17 Fachschaften};
+	%
+  	\path (Studis) -- (FS) node[midway, above] {gliedert sich in};
+  	\draw[->,draw] (Studis) to (FS);
+  	%
+  	\path (Studis) -- (Senatoren) node[midway, right] {wählt};
+  	\draw[->,draw] (Studis) to (Senatoren);
+  	%
+  	\path (FS) -- (Fakultaetsmitglieder) node[midway, right] {wählt};
+  	\draw[->,draw] (FS) to (Fakultaetsmitglieder);
+  	%
+  	\path (FS) -- (StuRa) node[midway, right] {wählt};
+  	\draw[->,draw] (FS) to (StuRa);
+  	%
+  	\path (FS) -- (FSR) node[midway, right] {wählt};
+  	\draw[->,draw] (FS) to (FSR);
+    \end{tikzpicture}
     \caption{Übersicht über die studentischen Gremien}
     \label{fig:gremien}
 \end{figure}
