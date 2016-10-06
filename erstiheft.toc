@@ -1,68 +1,69 @@
 \contentsline {subsubsection}{\nonumberline Impressum}{2}{section*.1}
 \select@language {ngerman}
 \contentsline {section}{\numberline {1}Begr\IeC {\"u}\IeC {\ss }ungen}{3}{section.1}
-\contentsline {subsection}{\numberline {1.1}Vorsitzende des Fachschaftsrats Mathematik/Informatik}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.1}Vorsitzender des Fachschaftsrats Mathematik/Informatik}{3}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Dekan und Studiendekan der Naturwissenschaftlichen Fakult\IeC {\"a}t II}{4}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Dekan und Studiendekan der Naturwissenschaftlichen Fakult\IeC {\"a}t III}{4}{subsection.1.3}
-\contentsline {subsection}{\numberline {1.4}Institutsdirektor des Instituts f\IeC {\"u}r Mathematik}{5}{subsection.1.4}
-\contentsline {subsection}{\numberline {1.5}Institutsdirektor des Instituts f\IeC {\"u}r Informatik}{6}{subsection.1.5}
-\contentsline {section}{\numberline {2}Was sind Leistungs-Punkte?}{8}{section.2}
-\contentsline {section}{\numberline {3}Studieng\IeC {\"a}nge}{9}{section.3}
-\contentsline {subsection}{\numberline {3.1}Informatik}{9}{subsection.3.1}
+\contentsline {subsection}{\numberline {1.3}Dekan und Studiendekan der Naturwissenschaftlichen Fakult\IeC {\"a}t III}{5}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Institutsdirektorin des Instituts f\IeC {\"u}r Mathematik}{6}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Institutsdirektor des Instituts f\IeC {\"u}r Informatik}{7}{subsection.1.5}
+\contentsline {section}{\numberline {2}Was sind Leistungs-Punkte?}{9}{section.2}
+\contentsline {section}{\numberline {3}Studieng\IeC {\"a}nge}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Informatik}{10}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Bioinformatik}{12}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Informatik Lehramt}{15}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Mathematik}{17}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Wirtschaftsmathematik}{20}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Mathematik Lehramt}{22}{subsection.3.6}
-\contentsline {section}{\numberline {4}Wer vertritt wen?}{26}{section.4}
-\contentsline {subsection}{\numberline {4.1}Fachschaftsr\IeC {\"a}te}{26}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Studierendenrat}{28}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Fakult\IeC {\"a}tsr\IeC {\"a}te}{29}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Senat}{30}{subsection.4.4}
-\contentsline {section}{\numberline {5}Studieren in Halle}{31}{section.5}
-\contentsline {subsection}{\numberline {5.1}Was kann mein Studentenausweis?}{31}{subsection.5.1}
-\contentsline {paragraph}{\nonumberline Was es bei der USC zu beachten gibt}{32}{section*.3}
-\contentsline {paragraph}{\nonumberline Studentenkarte mit erweiterten Funktionen}{32}{section*.4}
-\contentsline {subsection}{\numberline {5.2}Was macht das Studentenwerk?}{33}{subsection.5.2}
-\contentsline {paragraph}{\nonumberline BAf\IeC {\"o}G}{33}{section*.5}
-\contentsline {paragraph}{\nonumberline Verpflegung}{33}{section*.6}
-\contentsline {paragraph}{\nonumberline Wohnen}{33}{section*.7}
-\contentsline {paragraph}{\nonumberline Beratung}{33}{section*.8}
-\contentsline {paragraph}{\nonumberline Kultur}{34}{section*.9}
-\contentsline {paragraph}{\nonumberline Kinderbetreuung}{34}{section*.10}
-\contentsline {subsection}{\numberline {5.3}Stipendien}{35}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Studentenalltag}{35}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Was mache ich in meiner Freizeit?}{36}{subsection.5.5}
-\contentsline {paragraph}{\nonumberline Fachschaftsratsveranstaltungen}{36}{section*.11}
-\contentsline {paragraph}{\nonumberline Theater}{37}{section*.12}
-\contentsline {paragraph}{\nonumberline Kino}{37}{section*.13}
-\contentsline {paragraph}{\nonumberline Kneipen und Diskos}{37}{section*.14}
-\contentsline {paragraph}{\nonumberline Bauernclub}{38}{section*.15}
-\contentsline {subsection}{\numberline {5.6}hastuzeit}{38}{subsection.5.6}
-\contentsline {section}{\numberline {6}Hilfen technischer Natur}{40}{section.6}
-\contentsline {subsection}{\numberline {6.1}Wie erstelle ich ein PDF?}{40}{subsection.6.1}
-\contentsline {paragraph}{\nonumberline \textlatin {\LaTeX }}{41}{section*.16}
-\contentsline {paragraph}{\nonumberline Installation}{41}{section*.17}
-\contentsline {paragraph}{\nonumberline Den ersten Text setzen}{42}{section*.18}
-\contentsline {paragraph}{\nonumberline Die L\IeC {\"o}sungen zu den \IeC {\"U}bungen schreiben}{42}{section*.19}
-\contentsline {subsection}{\numberline {6.2}Die Computerpools}{43}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}WLAN}{43}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Kommunikationswege des FSR}{44}{subsection.6.4}
-\contentsline {subsubsection}{\nonumberline Homepage}{44}{section*.20}
-\contentsline {subsubsection}{\nonumberline im StudIP}{44}{section*.21}
-\contentsline {subsubsection}{\nonumberline facebook}{44}{section*.22}
-\contentsline {subsubsection}{\nonumberline per Twitter}{44}{section*.23}
-\contentsline {subsubsection}{\nonumberline Aush\IeC {\"a}nge}{44}{section*.24}
-\contentsline {section}{\numberline {7}Anhang}{45}{section.7}
-\contentsline {subsection}{\numberline {7.1}Uni-ABC}{45}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}N\IeC {\"u}tzliche Links}{47}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Wichtige Kontakte}{48}{subsection.7.3}
-\contentsline {subsubsection}{\nonumberline Fachschaftsrat Mathematik/Informatik}{48}{section*.25}
-\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak III (inkl. Informatik)}{48}{section*.26}
-\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak II (inkl. Mathematik)}{48}{section*.27}
-\contentsline {subsubsection}{\nonumberline Studienberater Mathematik}{48}{section*.28}
-\contentsline {subsubsection}{\nonumberline Studienberater Informatik}{49}{section*.29}
-\contentsline {subsubsection}{\nonumberline Studierendenrat}{49}{section*.30}
-\contentsline {subsubsection}{\nonumberline BAf\IeC {\"o}G-Amt}{49}{section*.31}
-\contentsline {subsubsection}{\nonumberline Studierenden-Service-Center}{49}{section*.32}
-\contentsline {subsubsection}{\nonumberline Akademisches Auslandsamt}{49}{section*.33}
+\contentsline {subsection}{\numberline {3.3}Informatik Lehramt}{14}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Mathematik}{15}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Wirtschaftsmathematik}{17}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Mathematik Lehramt}{18}{subsection.3.6}
+\contentsline {section}{\numberline {4}Wer vertritt wen?}{20}{section.4}
+\contentsline {subsection}{\numberline {4.1}Fachschaftsr\IeC {\"a}te}{20}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Studierendenrat}{21}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Fakult\IeC {\"a}tsr\IeC {\"a}te}{23}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Senat}{23}{subsection.4.4}
+\contentsline {section}{\numberline {5}Studieren in Halle}{25}{section.5}
+\contentsline {subsection}{\numberline {5.1}Was kann mein Studentenausweis?}{25}{subsection.5.1}
+\contentsline {paragraph}{\nonumberline Was es bei der USC zu beachten gibt}{26}{section*.4}
+\contentsline {paragraph}{\nonumberline Studentenkarte mit erweiterten Funktionen}{26}{section*.5}
+\contentsline {subsection}{\numberline {5.2}Was macht das Studentenwerk?}{27}{subsection.5.2}
+\contentsline {paragraph}{\nonumberline BAf\IeC {\"o}G}{27}{section*.6}
+\contentsline {paragraph}{\nonumberline Verpflegung}{27}{section*.7}
+\contentsline {paragraph}{\nonumberline Wohnen}{27}{section*.8}
+\contentsline {paragraph}{\nonumberline Beratung}{27}{section*.9}
+\contentsline {paragraph}{\nonumberline Kultur}{28}{section*.10}
+\contentsline {paragraph}{\nonumberline Kinderbetreuung}{28}{section*.11}
+\contentsline {subsection}{\numberline {5.3}Stipendien}{29}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Studentenalltag}{29}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Was mache ich in meiner Freizeit?}{30}{subsection.5.5}
+\contentsline {paragraph}{\nonumberline Fachschaftsratsveranstaltungen}{30}{section*.12}
+\contentsline {paragraph}{\nonumberline Theater}{31}{section*.13}
+\contentsline {paragraph}{\nonumberline Kino}{31}{section*.14}
+\contentsline {paragraph}{\nonumberline Bars und Diskos}{31}{section*.15}
+\contentsline {paragraph}{\nonumberline Bauernclub}{32}{section*.16}
+\contentsline {subsection}{\numberline {5.6}hastuzeit}{32}{subsection.5.6}
+\contentsline {section}{\numberline {6}Hilfen technischer Natur}{33}{section.6}
+\contentsline {subsection}{\numberline {6.1}Wie erstelle ich ein PDF?}{33}{subsection.6.1}
+\contentsline {paragraph}{\nonumberline \LaTeX }{34}{section*.17}
+\contentsline {paragraph}{\nonumberline Installation}{34}{section*.18}
+\contentsline {paragraph}{\nonumberline Den ersten Text setzen}{35}{section*.19}
+\contentsline {paragraph}{\nonumberline Die L\IeC {\"o}sungen zu den \IeC {\"U}bungen schreiben}{35}{section*.20}
+\contentsline {subsection}{\numberline {6.2}Die Computerpools}{36}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}WLAN}{36}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Kommunikationswege des FSR}{37}{subsection.6.4}
+\contentsline {subsubsection}{\nonumberline Homepage}{37}{section*.21}
+\contentsline {subsubsection}{\nonumberline im StudIP}{37}{section*.22}
+\contentsline {subsubsection}{\nonumberline facebook}{37}{section*.23}
+\contentsline {subsubsection}{\nonumberline per Twitter}{37}{section*.25}
+\contentsline {subsubsection}{\nonumberline Aush\IeC {\"a}nge}{37}{section*.26}
+\contentsline {section}{\numberline {7}Anhang}{38}{section.7}
+\contentsline {subsection}{\numberline {7.1}Uni-ABC}{38}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}N\IeC {\"u}tzliche Links}{40}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Wichtige Kontakte}{41}{subsection.7.3}
+\contentsline {subsubsection}{\nonumberline Fachschaftsrat Mathematik/Informatik}{41}{section*.27}
+\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak III (inkl. Informatik)}{41}{section*.28}
+\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak II (inkl. Mathematik)}{41}{section*.29}
+\contentsline {subsubsection}{\nonumberline Studienberater Mathematik}{41}{section*.30}
+\contentsline {subsubsection}{\nonumberline Studienberater Informatik}{42}{section*.31}
+\contentsline {subsubsection}{\nonumberline Studierendenrat}{42}{section*.32}
+\contentsline {subsubsection}{\nonumberline BAf\IeC {\"o}G-Amt}{42}{section*.33}
+\contentsline {subsubsection}{\nonumberline Studierenden-Service-Center}{42}{section*.34}
+\contentsline {subsubsection}{\nonumberline International Office}{42}{section*.35}
+\contentsline {subsubsection}{\nonumberline IAESTE LC Halle}{43}{section*.36}
