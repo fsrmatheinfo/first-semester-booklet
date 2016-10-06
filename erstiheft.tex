@@ -1,5 +1,4 @@
-% zuletzt ueberarbeitet 2014
-% von Felix Knispel
+% zuletzt ueberarbeitet 2016
 % bei Fragen zu dieser LaTeX-„Vorlage“:
 %  jan.wagner@fsr-matheinfo.de (ob der noch mitliest, ist fraglich)
 %
@@ -42,6 +41,10 @@
 \usepackage{helvet}                     % Serifenlose Schrift ist Helvetica
 \usepackage{tikz}                       % Tikz für Vektorgrafiken
 \usepackage{booktabs}                   % für schönere Tabellen
+\usepackage{hyperref}
+\usepackage{wrapfig}
+\usepackage{caption}
+
 
 % Hier definieren wir den kompletten Seitenaufbau neu, damit wir so viel Platz
 % wie möglich erhalten. Alle Ränder sind 1,5 cm breit.
@@ -54,7 +57,7 @@
 \setlength{\headheight}{0.5cm}
 \setlength{\headsep}{0.5cm}
 \setlength{\textheight}{\paperheight-4cm}
-\setlength{\footskip}{0cm}
+%\setlength{\footskip}{0cm}
 \setlength{\marginparwidth}{0cm}
 \setlength{\marginparsep}{0cm}
 \setlength{\parindent}{0cm}
@@ -99,6 +102,8 @@
 % Ein Makro, falls man es besser findet http:// mit anzugeben oder ein anderes
 % Protokoll verwendet
 \newcommand{\link}[1]{\verweis{\href{#1}{#1}}}
+
+\renewcommand{\arraystretch}{1.05}
 
 % Hurensoehne etc. verhindern
 \widowpenalty=10000
