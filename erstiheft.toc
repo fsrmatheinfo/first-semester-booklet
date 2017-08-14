@@ -49,21 +49,19 @@
 \contentsline {subsection}{\numberline {6.3}WLAN}{36}{subsection.6.3}
 \contentsline {subsection}{\numberline {6.4}Kommunikationswege des FSR}{37}{subsection.6.4}
 \contentsline {subsubsection}{\nonumberline Homepage}{37}{section*.21}
-\contentsline {subsubsection}{\nonumberline im StudIP}{37}{section*.22}
-\contentsline {subsubsection}{\nonumberline facebook}{37}{section*.23}
-\contentsline {subsubsection}{\nonumberline per Twitter}{37}{section*.25}
-\contentsline {subsubsection}{\nonumberline Aush\IeC {\"a}nge}{37}{section*.26}
+\contentsline {subsubsection}{\nonumberline facebook}{37}{section*.22}
+\contentsline {subsubsection}{\nonumberline Aush\IeC {\"a}nge}{37}{section*.24}
 \contentsline {section}{\numberline {7}Anhang}{38}{section.7}
 \contentsline {subsection}{\numberline {7.1}Uni-ABC}{38}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}N\IeC {\"u}tzliche Links}{40}{subsection.7.2}
 \contentsline {subsection}{\numberline {7.3}Wichtige Kontakte}{41}{subsection.7.3}
-\contentsline {subsubsection}{\nonumberline Fachschaftsrat Mathematik/Informatik}{41}{section*.27}
-\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak III (inkl. Informatik)}{41}{section*.28}
-\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak II (inkl. Mathematik)}{41}{section*.29}
-\contentsline {subsubsection}{\nonumberline Studienberater Mathematik}{41}{section*.30}
-\contentsline {subsubsection}{\nonumberline Studienberater Informatik}{42}{section*.31}
-\contentsline {subsubsection}{\nonumberline Studierendenrat}{42}{section*.32}
-\contentsline {subsubsection}{\nonumberline BAf\IeC {\"o}G-Amt}{42}{section*.33}
-\contentsline {subsubsection}{\nonumberline Studierenden-Service-Center}{42}{section*.34}
-\contentsline {subsubsection}{\nonumberline International Office}{42}{section*.35}
-\contentsline {subsubsection}{\nonumberline IAESTE LC Halle}{43}{section*.36}
+\contentsline {subsubsection}{\nonumberline Fachschaftsrat Mathematik/Informatik}{41}{section*.25}
+\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak III (inkl. Informatik)}{41}{section*.26}
+\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak II (inkl. Mathematik)}{41}{section*.27}
+\contentsline {subsubsection}{\nonumberline Studienberater Mathematik}{41}{section*.28}
+\contentsline {subsubsection}{\nonumberline Studienberater Informatik}{42}{section*.29}
+\contentsline {subsubsection}{\nonumberline Studierendenrat}{42}{section*.30}
+\contentsline {subsubsection}{\nonumberline BAf\IeC {\"o}G-Amt}{42}{section*.31}
+\contentsline {subsubsection}{\nonumberline Studierenden-Service-Center}{42}{section*.32}
+\contentsline {subsubsection}{\nonumberline International Office}{42}{section*.33}
+\contentsline {subsubsection}{\nonumberline IAESTE LC Halle}{43}{section*.34}
