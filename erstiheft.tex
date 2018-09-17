@@ -44,6 +44,10 @@
 \usepackage{hyperref}
 \usepackage{wrapfig}
 \usepackage{caption}
+\usepackage[default]{sourcesanspro}
+\usepackage[default]{sourcecodepro}
+\usepackage[default,regular,black]{sourceserifpro}
+\usetikzlibrary{backgrounds,calc}
 \usepackage[final]{pdfpages}
 
 
@@ -107,7 +111,7 @@
 \renewcommand{\arraystretch}{1.05}
 
 % Hurensoehne etc. verhindern
-\widowpenalty=10000
+%\widowpenalty=10000
 
 \begin{document}
 
@@ -139,14 +143,14 @@
 \input{Inhalt/7-anhang}
 
 % weiße Seiten, damit der farbige Einband nicht bedruckt wird
-\newpage
-\thispagestyle{empty}
-~
-\newpage
-\thispagestyle{empty}
-~
-\newpage
-\thispagestyle{empty}
-~
+%\newpage
+%\thispagestyle{empty}
+%~
+%\newpage
+%\thispagestyle{empty}
+%~
+%\newpage
+%\thispagestyle{empty}
+%~
 
 \end{document}
