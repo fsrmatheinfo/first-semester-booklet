@@ -34,29 +34,31 @@
 \contentsline {paragraph}{\nonumberline Bars und Diskos}{37}{section*.28}
 \contentsline {paragraph}{\nonumberline Bauernclub}{38}{section*.29}
 \contentsline {subsection}{\numberline {5.6}hastuzeit}{38}{subsection.5.6}
-\contentsline {section}{\numberline {6}Hilfen technischer Natur}{39}{section.6}
-\contentsline {subsection}{\numberline {6.1}Wie erstelle ich ein PDF?}{39}{subsection.6.1}
-\contentsline {paragraph}{\nonumberline \LaTeX }{40}{section*.30}
-\contentsline {paragraph}{\nonumberline Installation}{40}{section*.31}
-\contentsline {paragraph}{\nonumberline Den ersten Text setzen}{41}{section*.32}
-\contentsline {paragraph}{\nonumberline Die L\IeC {\"o}sungen zu den \IeC {\"U}bungen schreiben}{41}{section*.33}
-\contentsline {subsection}{\numberline {6.2}Die Computerpools}{42}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}WLAN}{42}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Kommunikationswege des FSR}{43}{subsection.6.4}
-\contentsline {subsubsection}{\nonumberline Homepage}{43}{section*.34}
-\contentsline {subsubsection}{\nonumberline facebook}{43}{section*.35}
-\contentsline {subsubsection}{\nonumberline Aush\IeC {\"a}nge}{43}{section*.36}
-\contentsline {section}{\numberline {7}Anhang}{44}{section.7}
-\contentsline {subsection}{\numberline {7.1}Uni-ABC}{44}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}N\IeC {\"u}tzliche Links}{46}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Wichtige Kontakte}{47}{subsection.7.3}
-\contentsline {subsubsection}{\nonumberline Fachschaftsrat Mathematik/Informatik}{47}{section*.37}
-\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak III (inkl. Informatik)}{47}{section*.38}
-\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak II (inkl. Mathematik)}{47}{section*.39}
-\contentsline {subsubsection}{\nonumberline Studienberater Mathematik und Wirtschaftsmathematik}{47}{section*.40}
-\contentsline {subsection}{\numberline {7.4}Studienberater Informatik und Bioinformatik}{48}{subsection.7.4}
-\contentsline {subsubsection}{\nonumberline Studierendenrat}{48}{section*.41}
-\contentsline {subsubsection}{\nonumberline BAf\IeC {\"o}G-Amt}{48}{section*.42}
-\contentsline {subsubsection}{\nonumberline Studierenden-Service-Center}{48}{section*.43}
-\contentsline {subsubsection}{\nonumberline International Office}{48}{section*.44}
-\contentsline {subsubsection}{\nonumberline IAESTE LC Halle}{49}{section*.45}
+\contentsline {section}{\numberline {6}Hilfen}{39}{section.6}
+\contentsline {subsection}{\numberline {6.1}Kommunikationswege des FSR}{39}{subsection.6.1}
+\contentsline {subsubsection}{\nonumberline Homepage}{39}{section*.30}
+\contentsline {subsubsection}{\nonumberline facebook}{39}{section*.31}
+\contentsline {subsubsection}{\nonumberline Aush\IeC {\"a}nge}{39}{section*.32}
+\contentsline {subsection}{\numberline {6.2}Mathe-Treffpunkt}{40}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Mentoringprogramm}{40}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Wie erstelle ich ein PDF?}{41}{subsection.6.4}
+\contentsline {paragraph}{\nonumberline \LaTeX }{42}{section*.33}
+\contentsline {paragraph}{\nonumberline Installation}{42}{section*.34}
+\contentsline {paragraph}{\nonumberline Den ersten Text setzen}{43}{section*.35}
+\contentsline {paragraph}{\nonumberline Die L\IeC {\"o}sungen zu den \IeC {\"U}bungen schreiben}{44}{section*.36}
+\contentsline {subsection}{\numberline {6.5}Computerpools}{44}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}WLAN}{44}{subsection.6.6}
+\contentsline {section}{\numberline {7}Anhang}{45}{section.7}
+\contentsline {subsection}{\numberline {7.1}Uni-ABC}{45}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}N\IeC {\"u}tzliche Links}{47}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Wichtige Kontakte}{48}{subsection.7.3}
+\contentsline {subsubsection}{\nonumberline Fachschaftsrat Mathematik/Informatik}{48}{section*.37}
+\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak III (inkl. Informatik)}{48}{section*.38}
+\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak II (inkl. Mathematik)}{48}{section*.39}
+\contentsline {subsubsection}{\nonumberline Studienberater Mathematik und Wirtschaftsmathematik}{48}{section*.40}
+\contentsline {subsection}{\numberline {7.4}Studienberater Informatik und Bioinformatik}{49}{subsection.7.4}
+\contentsline {subsubsection}{\nonumberline Studierendenrat}{49}{section*.41}
+\contentsline {subsubsection}{\nonumberline BAf\IeC {\"o}G-Amt}{49}{section*.42}
+\contentsline {subsubsection}{\nonumberline Studierenden-Service-Center}{49}{section*.43}
+\contentsline {subsubsection}{\nonumberline International Office}{49}{section*.44}
+\contentsline {subsubsection}{\nonumberline IAESTE LC Halle}{50}{section*.45}
