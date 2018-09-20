@@ -37,7 +37,7 @@
 \contentsline {section}{\numberline {6}Hilfen}{39}{section.6}
 \contentsline {subsection}{\numberline {6.1}Kommunikationswege des FSR}{39}{subsection.6.1}
 \contentsline {subsubsection}{\nonumberline Homepage}{39}{section*.30}
-\contentsline {subsubsection}{\nonumberline facebook}{39}{section*.31}
+\contentsline {subsubsection}{\nonumberline Facebook}{39}{section*.31}
 \contentsline {subsubsection}{\nonumberline Aush\IeC {\"a}nge}{39}{section*.32}
 \contentsline {subsection}{\numberline {6.2}Mathe-Treffpunkt}{40}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Mentoringprogramm}{40}{subsection.6.3}
@@ -53,12 +53,12 @@
 \contentsline {subsection}{\numberline {7.2}N\IeC {\"u}tzliche Links}{47}{subsection.7.2}
 \contentsline {subsection}{\numberline {7.3}Wichtige Kontakte}{48}{subsection.7.3}
 \contentsline {subsubsection}{\nonumberline Fachschaftsrat Mathematik/Informatik}{48}{section*.37}
-\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak III (inkl. Informatik)}{48}{section*.38}
-\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak II (inkl. Mathematik)}{48}{section*.39}
+\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak III (insb. Informatik)}{48}{section*.38}
+\contentsline {subsubsection}{\nonumberline Pr\IeC {\"u}fungsamt der NatFak II (insb. Mathematik)}{48}{section*.39}
 \contentsline {subsubsection}{\nonumberline Studienberater Mathematik und Wirtschaftsmathematik}{48}{section*.40}
-\contentsline {subsection}{\numberline {7.4}Studienberater Informatik und Bioinformatik}{49}{subsection.7.4}
-\contentsline {subsubsection}{\nonumberline Studierendenrat}{49}{section*.41}
-\contentsline {subsubsection}{\nonumberline BAf\IeC {\"o}G-Amt}{49}{section*.42}
-\contentsline {subsubsection}{\nonumberline Studierenden-Service-Center}{49}{section*.43}
-\contentsline {subsubsection}{\nonumberline International Office}{49}{section*.44}
-\contentsline {subsubsection}{\nonumberline IAESTE LC Halle}{50}{section*.45}
+\contentsline {subsubsection}{\nonumberline Studienberater Informatik und Bioinformatik}{49}{section*.41}
+\contentsline {subsubsection}{\nonumberline Studierendenrat}{49}{section*.42}
+\contentsline {subsubsection}{\nonumberline BAf\IeC {\"o}G-Amt}{49}{section*.43}
+\contentsline {subsubsection}{\nonumberline Studierenden-Service-Center}{49}{section*.44}
+\contentsline {subsubsection}{\nonumberline International Office}{49}{section*.45}
+\contentsline {subsubsection}{\nonumberline IAESTE LC Halle}{50}{section*.46}
