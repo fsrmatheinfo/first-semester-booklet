@@ -1,156 +1,104 @@
-% zuletzt ueberarbeitet 2017
-% bei Fragen zu dieser LaTeX-„Vorlage“:
-%  jan.wagner@fsr-matheinfo.de (ob der noch mitliest, ist fraglich)
-%
-% Anmerkungen:
-%  • mit gedit und LaTeX-Plugin erstellt, verwendet rubber, d.h. das TeX kann
-%    Fehler haben und weder mit latex noch pdflatex kann es kompiliert werden,
-%    das muss aber nicht sein
-%  • Erstellung auch problemlos mit TeXMaker möglich (2014)
-%  • Alle Files sind nun in UTF-8. D.h. typographische Anführungszeichen „“ sind
-%    explizit erwünscht, also nicht "'"´ oder so etwas nehmen. Auch Umlaute
-%    normal schreiben!
+\documentclass[8pt,twoside]{scrartcl}
 
-\documentclass[a5paper,9pt,twoside]{scrartcl}
 % Pakete einbinden
-\usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
 \usepackage[babel]{csquotes}
-\usepackage{graphicx}                   % schön Grafiken einbinden
-\usepackage{amssymb, amstext, amsmath}  % Mathe-Zeug
-\usepackage{rotating}                   % für die Titelseite: Schrift rotieren
-\usepackage{type1cm}                    % für die Titelseite: Schrift vergrößern
-\usepackage{eso-pic,calc}               % fuer BG-Bild
-\usepackage[official]{eurosym}          % benötigt für das Euro-Symbol
-\usepackage{fancyhdr}                   % für die schönen Kopfzeilen
-\usepackage{tabularx}                   % damit man Tabellen exakt so breit wie
-                                        % Seiten machen kann; var. Spalten
-                                        % werden mit X markiert; Bsp:
-                                        % \begin{tabularx}{\textwidth}{lrcX}
-\usepackage{textpos}                    % damit kann man das Titelbild in die
-                                        % Ecke setzen
-\usepackage{color}                      % für Farben
-\definecolor{OurLinkColor}{rgb}{0,0,0}  % Schönes Schwarz für die Links im Dokument
-\usepackage[pdftex,                     % für die klickbaren Querverweise im PDF
-            colorlinks,                 % (Inhaltsverzeichnis, Seitenzahlen,
-            linkcolor=OurLinkColor,     % Tabellen,..)
-            citecolor=OurLinkColor,
-%           pagecolor=OurLinkColor, not available anymore
-            filecolor=OurLinkColor,
-            urlcolor=OurLinkColor]{hyperref}
-\usepackage{helvet}                     % Serifenlose Schrift ist Helvetica
-\usepackage{tikz}                       % Tikz für Vektorgrafiken
-\usepackage{booktabs}                   % für schönere Tabellen
-\usepackage{hyperref}
-\usepackage{wrapfig}
-\usepackage{caption}
 \usepackage{sourcesanspro}
 \usepackage{sourcecodepro}
 \usepackage[default,regular,black]{sourceserifpro}
-\usetikzlibrary{backgrounds,calc}
-\usepackage[final]{pdfpages}
-
-
-% Hier definieren wir den kompletten Seitenaufbau neu, damit wir so viel Platz
-% wie möglich erhalten. Alle Ränder sind 1,5 cm breit.
-\setlength{\voffset}{-1in}
-\setlength{\hoffset}{-1in}
-\setlength{\topmargin}{1.5cm}
-\setlength{\oddsidemargin}{1.5cm}
-\setlength{\evensidemargin}{1.5cm}
-\setlength{\textwidth}{\paperwidth-3cm}
-\setlength{\headheight}{0.5cm}
-\setlength{\headsep}{0.5cm}
-\setlength{\textheight}{\paperheight-4cm}
-%\setlength{\footskip}{0cm}
-\setlength{\marginparwidth}{0cm}
-\setlength{\marginparsep}{0cm}
-\setlength{\parindent}{0cm}
-
-\parskip = 1em plus 1em minus 1em
-
-% Hier können Wörter eingetragen werden, welche nicht getrennt werden sollen
-% oder wie sie getrennt werden sollen. (z.B. Arsch-kriech-er)
-\hyphenation{
-      uniwlan
-      }
-
-% Hier werden die schönen Kopfzeilen angeschaltet und definiert/angpasst.
-\pagestyle{fancy}
-% renew Sectionmark, damit Nummerierung der Sections nicht in den Kopfzeilen
-% erscheint. Vgl.:
-% http://www.tex.ac.uk/tex-archive/macros/latex/contrib/fancyhdr/fancyhdr.pdf
-\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
-\fancyhf{}
-\fancyhead[OR]{\sffamily\thepage}
-\fancyhead[OL]{\sffamily\nouppercase{\leftmark}}
-\fancyhead[EL]{\sffamily\thepage}
-\fancyhead[ER]{\sffamily\nouppercase{\leftmark}}
-
-% Bis zu welcher Gliederungsebene soll nummeriert werden
-\setcounter{secnumdepth}{2}
-% Bis zu welcher Ebene Einträge ins Inhaltsverzeichnis aufgenommen werden.
-\setcounter{tocdepth}{2}
-
-
-% sonsiges
-\renewcommand{\baselinestretch}{1.1} % Zeilenabstand 1.1, für bessere Lesbarkeit
-
+\usepackage[official]{eurosym}
+\usepackage[a6paper,inner=1.25cm,outer=1cm,bottom=1cm]{geometry}
+\usepackage{textpos}
+\usepackage{longtable}
+\usepackage{tabu}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[hyphenbreaks]{breakurl}
+\usepackage{graphicx}
 % Wo liegen die Bilder
 \graphicspath{{./Bilder/}}
+\usepackage{rotating}
+\usepackage{setspace}\setstretch{1.25}
+\renewcommand{\arraystretch}{1.5}
+\usepackage{enumitem}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage{intcalc}
 
-% Ein neuer Befehl um Link zu Webseiten und E-Mail-Adressen konsistent
-% darzustellen
-\newcommand{\verweis}[1]{\mbox{\texttt{#1}}}
-\newcommand{\web}[1]{\verweis{\href{#1}{#1}}}
-\newcommand{\email}[1]{\verweis{\href{mailto:#1}{#1}}}
-% Ein Makro, falls man es besser findet http:// mit anzugeben oder ein anderes
-% Protokoll verwendet
-\newcommand{\link}[1]{\verweis{\href{#1}{#1}}}
+\setcounter{secnumdepth}{0} % Überschriften nicht nummerieren.
+\newcommand{\email}[1]{{\UrlFont\href{mailto:#1}{#1}}}
 
-\renewcommand{\arraystretch}{1.05}
+\title{Ersti-Hilfe für die Institute für 
+    Mathematik und Informatik zum
+    Wintersemester 2018/19}
+\author{Fachschaftsrat Mathematik/Informatik}
+\date{\today}
 
-% Hurensoehne etc. verhindern
-%\widowpenalty=10000
+\usepackage{scrlayer-scrpage}
+\ofoot{}
+\ohead*{\sffamily\thepage}
+\ihead{\sffamily\leftmark}
+
+\usepackage{datatool}
+\newcommand{\definition}[2]{\DTLnewrow{list}\DTLnewdbentry{list}{key}{#1}\DTLnewdbentry{list}{description}{#2}}
+\newenvironment{encyclopedia}{%
+    \DTLifdbexists{list}{%
+        \DTLcleardb{list}%
+    }{%
+        \DTLnewdb{list}%
+    }%
+}{%
+    \DTLsort{key}{list}%
+    \begin{description}[itemsep=0.5ex]%
+        \DTLforeach*{list}{%
+            \theKey=key, \theDesc=description%
+        }{
+            \item[\theKey] \theDesc
+        }%
+    \end{description}%
+}
+
+\usepackage{relsize}
+\renewcommand{\UrlFont}{\sffamily\smaller}
+% \makeatletter
+% % Inspired by http://anti.teamidiot.de/nei/2009/09/latex_url_slash_spacingkerning/
+% % but slightly less kern and shorter underscore
+% \let\UrlSpecialsOld\UrlSpecials
+% \def\UrlSpecials{\UrlSpecialsOld\do\/{\Url@slash}\do\_{\Url@underscore}}%
+% \def\Url@slash{\@ifnextchar/{\kern-.11em\mathchar47\kern-.2em}%
+%     {\kern-.0em\mathchar47\kern-.08em\penalty\UrlBigBreakPenalty}}
+% \def\Url@underscore{\nfss@text{\leavevmode \kern.06em\vbox{\hrule\@width.3em}}}
+% \makeatother
+
+\usepackage{xcolor}
+\definecolor{coverbackground}{cmyk}{0,1,0,0}
 
 \begin{document}
 
 % Titelseite
 \include{Inhalt/0-titelseiten}
-
-%Inhaltsverzeichnis
 \newpage
-\setcounter{page}{1}                    % Damit bezieht sich die Nummerierung
-                                        % der Seiten auf alle, außer die des
-                                        % bunten Einbandes
-\thispagestyle{empty}
-\tableofcontents
 
-%eingebundene Kapitel
-\newpage
+% Damit bezieht sich die Nummerierung
+% der Seiten auf alle, außer die des
+% bunten Einbandes.
+\setcounter{page}{1}
+
+%Begrüßung
 \input{Inhalt/1-begruessung}
 \newpage
-\input{Inhalt/2-creditpoints}
-\newpage
+
 \input{Inhalt/3-studiengaenge}
 \newpage
-\input{Inhalt/4-vertretung}
-\newpage
-\input{Inhalt/5-studiereninhalle}
-\newpage
-\input{Inhalt/6-hilfen}
-\newpage
+
 \input{Inhalt/7-anhang}
 
-% weiße Seiten, damit der farbige Einband nicht bedruckt wird
-%\newpage
-%\thispagestyle{empty}
-%~
-%\newpage
-%\thispagestyle{empty}
-%~
-%\newpage
-%\thispagestyle{empty}
-%~
+% Leere Seiten erzeugen, damit der farbige Einband nicht bedruckt wird.
+\whiledo{\intcalcMod{\value{page} + 2}{8} > 0}{
+    \newpage\thispagestyle{empty}~
+    \ifthenelse{\intcalcMod{\value{page} + 2}{8} = 0}{\pagecolor{coverbackground}}{}
+}
+
 
 \end{document}
