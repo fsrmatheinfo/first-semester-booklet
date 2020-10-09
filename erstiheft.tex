@@ -17,10 +17,12 @@
 \usepackage[hyphenbreaks]{breakurl}
 \usepackage{graphicx}
 % Wo liegen die Bilder
-\graphicspath{{./Bilder/}}
+\graphicspath{{./images/}}
 \usepackage{rotating}
-\usepackage{setspace}\setstretch{1.25}
+\usepackage{setspace}
+\onehalfspacing
 \renewcommand{\arraystretch}{1.5}
+\setlength{\parindent}{0pt}
 \usepackage{enumitem}
 \usepackage{calc}
 \usepackage{ifthen}
@@ -49,7 +51,7 @@
         \DTLnewdb{list}%
     }%
 }{%
-    \DTLsort{key}{list}%
+    \DTLsort*{key}{list}%
     \begin{description}[itemsep=0.5ex]%
         \DTLforeach*{list}{%
             \theKey=key, \theDesc=description%
@@ -77,7 +79,7 @@
 \begin{document}
 
 % Titelseite
-\include{Inhalt/0-titelseiten}
+\include{content/0-titelseiten}
 \newpage
 
 % Damit bezieht sich die Nummerierung
@@ -86,18 +88,18 @@
 \setcounter{page}{1}
 
 %Begrüßung
-\input{Inhalt/1-begruessung}
+\input{content/1-begruessung}
 \newpage
 
-\input{Inhalt/3-studiengaenge}
+\input{content/2-studiengaenge}
 \newpage
 
-\input{Inhalt/7-anhang}
+\input{content/3-anhang}
 
 % Leere Seiten erzeugen, damit der farbige Einband nicht bedruckt wird.
-\whiledo{\intcalcMod{\value{page} + 2}{8} > 0}{
+\whiledo{\intcalcMod{\value{page} + 2}{4} > 0}{
     \newpage\thispagestyle{empty}~
-    \ifthenelse{\intcalcMod{\value{page} + 2}{8} = 0}{\pagecolor{coverbackground}}{}
+    \ifthenelse{\intcalcMod{\value{page} + 2}{4} = 0}{\pagecolor{coverbackground}}{}
 }
 
 
