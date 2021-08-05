@@ -89,13 +89,11 @@
 \setcounter{page}{1}
 
 %Begrüßung
-\input{content/1-begruessung}
-\newpage
+\include{content/1-begruessung}
 
-\input{content/2-studiengaenge}
-\newpage
+\include{content/2-studiengaenge}
 
-\input{content/3-anhang}
+\include{content/3-anhang}
 
 % Leere Seiten erzeugen, damit der farbige Einband nicht bedruckt wird.
 \whiledo{\intcalcMod{\value{page} + 2}{4} > 0}{
