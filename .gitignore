@@ -1,4 +1,3 @@
-*.pdf
 *.toc
 *.aux
 *.out
@@ -6,4 +5,4 @@
 *.synctex.gz
 *.fls
 *.fdb_latexmk
-
+erstiheft.pdf
