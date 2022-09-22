@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+
+jobs:
+  latex-booklet:
+    name: "📄 LaTeX booklet"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥 Check-out"
+        uses: actions/checkout@v2
+      - name: "📅 Get current year"
+        id: year
+        run: echo "::set-output name=year::$(date +'%Y')"
+      - name: "🏗️ Compile booklet"
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: booklet.tex
+      - name: "📤 Upload booklet"
+        uses: actions/upload-artifact@v2
+        with:
+          path: booklet.pdf
+          name: first-semester-booklet-${{ steps.date.outputs.date }}
