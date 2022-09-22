@@ -21,4 +21,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           path: booklet.pdf
-          name: first-semester-booklet-${{ steps.date.outputs.date }}
+          name: first-semester-booklet-${{ steps.year.outputs.year }}
